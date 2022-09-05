@@ -1,4 +1,4 @@
-package TestProject.Inheritance;
+package TestProject.Tests.Inheritance;
 
 import java.util.Scanner;
 

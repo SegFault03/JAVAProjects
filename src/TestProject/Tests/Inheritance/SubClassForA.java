@@ -1,4 +1,5 @@
-package TestProject.Inheritance;
+package TestProject.Tests.Inheritance;
+
 
 public class SubClassForA extends SuperClass{
     int c;
