@@ -7,7 +7,7 @@ standard contributing guidelines in that case.
 
 If you're familiar with Git, then you should know your way around. Otherwise, feel free 
 to copy the code present in the individual files.
-**IMPORTANT**: Keep in mind that the package names for each file is unique to this repo.
+<br>**IMPORTANT**: Keep in mind that the package names for each file is unique to this repo.
 As such, should you wish to run the code in your own environment/editor, be sure to change the package names.
 
 Directory is structured as such:
