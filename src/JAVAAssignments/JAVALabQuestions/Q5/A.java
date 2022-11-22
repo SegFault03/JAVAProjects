@@ -1,9 +1,8 @@
-package JAVAAssignments.JAVALabQuestions.Q4;
+package JAVAAssignments.JAVALabQuestions.Q5;
 
 import java.applet.*;
 import java.awt.*;
-
-public class A extends Applet {
+public class A extends Applet{
     public void init()
     {
         repaint();
@@ -25,7 +24,7 @@ public class A extends Applet {
     }
     public void paint(Graphics g)
     {
-       g.drawString("Hi",30,30);
-       g.drawLine(30,10,70,10);
+        g.drawRect(30,30,10,40);        //Rectangle
+        g.drawRect(30,10,10,10);        //Square
     }
 }
