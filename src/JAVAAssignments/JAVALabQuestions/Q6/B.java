@@ -1,4 +1,4 @@
-package JAVAAssignments.Q6;
+package JAVAAssignments.JAVALabQuestions.Q6;
 
 class Super{
     int a=5;
