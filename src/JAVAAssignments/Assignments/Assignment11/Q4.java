@@ -1,8 +1,9 @@
 package JAVAAssignments.Assignments.Assignment11;
+import javax.swing.*;
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
-public class Q4 extends Applet{
+public class Q4 extends JApplet{
     Choice win, brow;
     Button btn;
     String wc,bc;

@@ -1,10 +1,11 @@
 package JAVAAssignments.JAVALabQuestions;
 
+import java.lang.reflect.Method;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 public class Q8 {
-    static class inner{
-        private static int a=5;
-    }
     public static void main(String[] args) {
         int[] a=null;
         try
@@ -14,7 +15,6 @@ public class Q8 {
         catch (Exception e)
         {
             System.out.println(e);
-            a[0] = 1;
         }
         finally {
             a = new int[2];
@@ -27,7 +27,11 @@ public class Q8 {
             }
             finally {
                 try{
-                    System.out.println(inner.a);
+                    Set<String> myStr = new HashSet<String>();
+                    myStr.add("obj1");
+                    Iterator itr = myStr.iterator();
+                    Method mtd = itr.getClass().getMethod("hasNext");
+                    System.out.println(mtd.invoke(itr));
                 }
                 catch (Exception e)
                 {
