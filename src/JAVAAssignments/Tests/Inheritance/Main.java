@@ -9,8 +9,9 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
         SubClassForA ob = new SubClassForA(a,b,c);
+        SuperClass ob2  = new SubClassForA(1,2,3);
         SubClassForA.displayClassName();
-        ob.display();
+        ob2.display();
         ob.callUsingSubClassObject();
         System.out.println("The sum is = "+ob.getSum());
     }

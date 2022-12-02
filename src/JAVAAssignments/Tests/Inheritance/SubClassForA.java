@@ -21,10 +21,8 @@ public class SubClassForA extends SuperClass{
         return super.getA() + super.getB() + c;
     }
 
-    @Override
     public void display()
     {
-        super.display();
-        System.out.println("c="+c);
+        System.out.println("c=");
     }
 }

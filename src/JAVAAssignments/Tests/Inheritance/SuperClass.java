@@ -16,11 +16,11 @@ public class SuperClass {
     }
 
     /**
-     * displays value of a and b
+     * displays value of a and b {@link this.a}
      */
     public void display()
     {
-        System.out.println("a= "+a+"\n"+"b= "+b);
+        System.out.println("a= "+"\n"+"b= ");
     }
 
     /**
